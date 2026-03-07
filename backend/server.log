@@ -186,3 +186,15 @@ INFO:     127.0.0.1:58380 - "GET /api/posts/user/me HTTP/1.1" 200 OK
 INFO:     127.0.0.1:58396 - "GET /api/posts/user/me HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50282 - "GET /api/categories/ HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50298 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55602 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55614 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55614 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55602 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36938 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36952 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36952 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36938 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36938 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36952 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50818 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50820 - "GET /api/categories/ HTTP/1.1" 200 OK
