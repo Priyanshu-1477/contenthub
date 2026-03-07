@@ -1,0 +1,188 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/priyanshu_mht/contenthub/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [434099] using WatchFiles
+INFO:     Started server process [434166]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:55208 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55208 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42938 - "OPTIONS /auth/signup HTTP/1.1" 200 OK
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/priyanshu_mht/.cache/pypoetry/virtualenvs/backend-tYO5z3vr-py3.10/lib/python3.10/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:42950 - "POST /auth/signup HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42950 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42950 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42938 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42938 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55058 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55058 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36438 - "OPTIONS /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36448 - "POST /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36448 - "OPTIONS /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36438 - "OPTIONS /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36454 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36454 - "GET /api/posts/1 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'backend/app/routes/posts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [434166]
+INFO:     Started server process [437862]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:36544 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35758 - "POST /api/posts/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:60944 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60952 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60958 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45008 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45008 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40216 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40216 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40230 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40230 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33766 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33766 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33776 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33776 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33776 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33776 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52022 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52022 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45686 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45686 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45686 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45686 - "GET /api/categories/ HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'backend/app/models.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [437862]
+INFO:     Started server process [441820]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/app/routes/posts.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [441820]
+INFO:     Started server process [442540]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:35430 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35434 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35430 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35434 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34702 - "OPTIONS /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34702 - "POST /api/posts/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:35286 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:38234 - "OPTIONS /auth/signup HTTP/1.1" 200 OK
+(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/home/priyanshu_mht/.cache/pypoetry/virtualenvs/backend-tYO5z3vr-py3.10/lib/python3.10/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     127.0.0.1:38234 - "POST /auth/signup HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38234 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38234 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38248 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48308 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48318 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48318 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48308 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48308 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48318 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36794 - "POST /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36794 - "OPTIONS /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36794 - "OPTIONS /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36794 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36810 - "GET /api/posts/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52738 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52740 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35478 - "POST /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35478 - "OPTIONS /api/posts/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35488 - "OPTIONS /api/posts/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35478 - "GET /api/posts/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35488 - "GET /api/posts/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35488 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35478 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51276 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51288 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44162 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44176 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44176 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44162 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44162 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44176 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42190 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42200 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57510 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57518 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43380 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43394 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57698 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57712 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56746 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56754 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58332 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58342 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58332 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58342 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42380 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42384 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47708 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47724 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47708 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47724 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55578 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55588 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55578 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55588 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46806 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46808 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46808 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46806 - "OPTIONS /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46808 - "GET /api/posts/user/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:46806 - "GET /api/posts/user/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:46806 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46808 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52500 - "OPTIONS /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52500 - "POST /api/posts/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52500 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52512 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45058 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45068 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45068 - "GET /api/posts/user/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:45058 - "GET /api/posts/user/me HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:45058 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45068 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33340 - "POST /api/posts/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:33352 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "OPTIONS /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33352 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34214 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34214 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33356 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40332 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40342 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "POST /api/posts/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "OPTIONS /api/posts/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "OPTIONS /api/posts/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54504 - "GET /api/posts/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54502 - "GET /api/posts/3 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58380 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58396 - "GET /api/posts/user/me HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50282 - "GET /api/categories/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50298 - "GET /api/categories/ HTTP/1.1" 200 OK

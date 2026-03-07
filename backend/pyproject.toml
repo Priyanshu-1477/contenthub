@@ -1,0 +1,26 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Priyanshu-1477",email = "prmahatha@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi (>=0.115.14,<0.116.0)",
+    "uvicorn[standard] (>=0.35.0,<0.36.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "psycopg2-binary (>=2.9.10,<3.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "python-jose (>=3.5.0,<4.0.0)",
+    "pydantic[email] (>=2.12.5,<3.0.0)",
+    "aiofiles (>=25.1.0,<26.0.0)",
+    "python-multipart (>=0.0.22,<0.0.23)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
